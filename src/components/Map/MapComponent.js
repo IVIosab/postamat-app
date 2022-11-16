@@ -193,6 +193,7 @@ const MapComponent = () => {
 					ref={mapRef}
 					center={[55.755825, 37.617298]}
 					zoom={10}
+					id="mapComponent"
 					zIndex='modal'
 					onClick={changeUbication}>
 					<TileLayer
